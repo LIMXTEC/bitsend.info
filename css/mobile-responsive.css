@@ -1,0 +1,666 @@
+/* iphone 2G, 3G, 4, 4s potrait */ 
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) 
+and (orientation : portrait) { 
+	/* STYLES GO HERE */ 
+}
+/* iphone 2G, 3G, 4, 4s landscape */ 
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) 
+and (orientation : landscape) { 
+	/* STYLES GO HERE */
+}
+/* iphone 5, 5s potrait */
+@media screen 
+and (width : 320px) 
+and (height : 568px) 
+and (orientation : portrait) { 
+	.pt-perspective{
+		min-height: 107.5vh;
+	}
+	.menu-potrait{
+		min-height: 99vh !important;
+	}
+	.feat-potrait{
+		min-height: 138.5vh !important;
+	}
+	.feat-potrait2{
+		min-height: 127vh !important;
+	}
+	.tos-potrait{
+		min-height: 131.5vh !important;
+	}
+	.spec-potrait{
+		min-height: 126.5vh !important;
+	}
+	.exchange-potrait{
+		min-height: 115vh !important;
+	}
+}
+/* iphone 5, 5s landscape */
+@media screen 
+and (height : 320px) 
+and (width : 568px) 
+and (orientation : landscape) { 
+	.pt-perspective{
+		min-height: 119vh;
+	}
+	.menu-potrait{
+		min-height: 114vh !important;
+	}
+	.feat-potrait{
+		min-height: 150.5vh !important;
+	}
+	.feat-potrait2{
+		min-height: 152.5vh !important;
+	}
+	.tos-potrait{
+		min-height: 161vh !important;
+	}
+	.spec-potrait{
+		min-height: 175vh !important;
+	}
+	.exchange-potrait{
+		min-height: 133.5vh !important;
+	}
+	.tos-page-1{
+		min-height:35vh;
+	}
+	.features h4{
+		font-size:100%;
+	}
+	.panel-body{
+		font-size:80%;
+	}
+	.pagination>li>a{
+		padding: 1px 7px !important;
+	}
+	.col-spec{
+		z-index:2;
+		min-width: 50% !important;
+		float:left;
+	}
+	
+	.info ,h3, h5{
+		font-size: 100%;
+	}
+	.info p{
+		font-size: 80%;
+	}
+	.menu{
+		height:20vh;
+	}
+	.main-menu{
+		
+	}
+	.crsl{
+		margin-left: 15%;
+	}
+	.carousel-inner {
+    height: 40vh;
+    width: 65vw;
+	}
+	.sosmed-icon{
+	margin-top:1.5vh;
+	margin-left: 37.5vw;
+	margin-bottom:1.5vh;
+	}
+	#sosmed>p>span>a>img{
+		height: 2em;
+	}
+	#default-info h5{
+		font-size: 100%;
+	}
+	#copyright{
+		margin-bottom:1px;
+		font-size:100%;
+	}
+}
+/* iphone 6 plus potrait  */
+@media screen 
+and (width : 414px) 
+and (height : 736px) 
+and (orientation : portrait) { 
+	.pt-perspective{
+		min-height: 98.9vh;
+	}
+	.menu-potrait{
+		min-height: 97.7vh !important;
+	}
+	.feat-potrait{
+		min-height: 128.8vh !important;
+	}
+	.feat-potrait2{
+		min-height: 120.8vh !important;
+	}
+	.tos-potrait{
+		min-height: 128.4vh !important;
+	}
+	.spec-potrait{
+		min-height: 123.1vh !important;
+	}
+	.exchange-potrait{
+		min-height: 106.5vh !important;
+	}
+}
+/* iphone 6 plus landscape  */
+@media screen 
+and (height : 414px) 
+and (width : 736px) 
+and (orientation : landscape) { 
+	.pt-perspective{
+		min-height: 114.6vh;
+	}
+	.menu-potrait{
+		min-height: 110.5vh !important;
+	}
+	.feat-potrait{
+		min-height: 142.3vh !important;
+	}
+	.feat-potrait2{
+		min-height: 141.1vh !important;
+	}
+	.tos-potrait{
+		min-height: 154.9vh !important;
+	}
+	.spec-potrait{
+		min-height: 157.8vh !important;
+	}
+	.exchange-potrait{
+		min-height: 129.3vh !important;
+	}
+	.tos-page-1{
+		min-height:35vh;
+	}
+	.features h4{
+		font-size:100%;
+	}
+	.panel-body{
+		font-size:80%;
+	}
+	.pagination>li>a{
+		padding: 1px 7px !important;
+	}
+	.col-spec{
+		z-index:2;
+		min-width: 50% !important;
+		float:left;
+	}
+	
+	.info ,h3, h5{
+		font-size: 100%;
+	}
+	.info p{
+		font-size: 80%;
+	}
+	.menu{
+		height:20vh;
+	}
+	.main-menu{
+		
+	}
+	.crsl{
+		margin-left: 10%;
+	}
+	.carousel-inner {
+    height: 40vh;
+    width: 65vw;
+	}
+	.sosmed-icon{
+	margin-top:1.5vh;
+	margin-left: 37.5vw;
+	margin-bottom:1.5vh;
+	}
+	#sosmed>p>span>a>img{
+		height: 2em;
+	}
+	#default-info h5{
+		font-size: 100%;
+	}
+	#copyright{
+		margin-bottom:1px;
+		font-size:100%;
+	}
+}
+/* iphone 6 potrait */
+@media screen 
+and (width : 375px) 
+and (height : 667px) 
+and (orientation : portrait) { 
+	.pt-perspective{
+		min-height: 100vh;
+	}
+	.menu-potrait{
+		min-height: 97.5vh !important;
+	}
+	.feat-potrait{
+		min-height: 132vh !important;
+	}
+	.feat-potrait2{
+		min-height: 123vh !important;
+	}
+	.tos-potrait{
+		min-height: 130vh !important;
+	}
+	.spec-potrait{
+		min-height: 124.5vh !important;
+	}
+	.exchange-potrait{
+		min-height: 107.5vh !important;
+	}
+}
+/* iphone 6 landscape */
+@media screen 
+and (height : 375px) 
+and (width : 667px) 
+and (orientation : landscape) { 
+	.pt-perspective{
+		min-height: 119vh;
+	}
+	.menu-potrait{
+		min-height: 114vh !important;
+	}
+	.feat-potrait{
+		min-height: 146.5vh !important;
+	}
+	.feat-potrait2{
+		min-height: 148vh !important;
+	}
+	.tos-potrait{
+		min-height: 158.5vh !important;
+	}
+	.spec-potrait{
+		min-height: 165vh !important;
+	}
+	.exchange-potrait{
+		min-height: 131.5vh !important;
+	}
+	.tos-page-1{
+		min-height:35vh;
+	}
+	.features h4{
+		font-size:100%;
+	}
+	.panel-body{
+		font-size:80%;
+	}
+	.pagination>li>a{
+		padding: 1px 7px !important;
+	}
+	.col-spec{
+		z-index:2;
+		min-width: 50% !important;
+		float:left;
+	}
+	
+	.info ,h3, h5{
+		font-size: 100%;
+	}
+	.info p{
+		font-size: 80%;
+	}
+	.menu{
+		height:20vh;
+	}
+	.main-menu{
+		
+	}
+	.crsl{
+		margin-left: 10%;
+	}
+	.carousel-inner {
+    height: 40vh;
+    width: 65vw;
+	}
+	.sosmed-icon{
+	margin-top:1.5vh;
+	margin-left: 37.5vw;
+	margin-bottom:1.5vh;
+	}
+	#sosmed>p>span>a>img{
+		height: 2em;
+	}
+	#default-info h5{
+		font-size: 100%;
+	}
+	#copyright{
+		margin-bottom:1px;
+		font-size:100%;
+	}
+}
+/* ipad potrait */
+@media screen 
+and (width : 768px) 
+and (height : 1024px) 
+and (orientation : portrait) { 
+	.pt-perspective{
+		min-height: 98.9vh;
+	}
+	.menu-potrait{
+		min-height: 97.7vh !important;
+	}
+	.feat-potrait{
+		min-height: 128.8vh !important;
+	}
+	.feat-potrait2{
+		min-height: 120.8vh !important;
+	}
+	.tos-potrait{
+		min-height: 128.4vh !important;
+	}
+	.spec-potrait{
+		min-height: 123.1vh !important;
+	}
+	.exchange-potrait{
+		min-height: 106.5vh !important;
+	}
+}
+/* ipad landscape */
+@media screen 
+and (height : 768px) 
+and (width : 1024px) 
+and (orientation : landscape) { 
+	.info ,h3, h5, h4{
+		font-size: 100%;
+	}
+	.info p{
+		font-size: 80%;
+	}
+	#livecoin{
+		margin-left:0vw !important;
+	}
+	#soutx{
+		margin-left:2vw;
+	}
+}
+/* ipad pro potrait */
+@media screen 
+and (width : 1024px) 
+and (height : 1366px) 
+and (orientation : portrait) { 
+	h3{
+		font-size: 3vh; 
+	}
+	.col-main-menu{
+		width:100%;
+	}
+	.menu{
+		width:50%;
+	}
+	.menu>a{
+		font-size:2.5vh;
+	}
+	.panel-body{
+		font-size: 2vh;
+	}
+	.pagination>li>a, .pagination>li>span {
+		font-size:2vh;
+		padding: 12px 18px;
+	}
+	.pt-perspective{
+		min-height: 98.9vh;
+	}
+	.col-spec{
+		width: 100%;
+	}
+	.menu-potrait{
+		min-height: 97.7vh !important;
+	}
+	.feat-potrait{
+		min-height: 128.8vh !important;
+	}
+	.feat-potrait2{
+		min-height: 120.8vh !important;
+	}
+	.tos-potrait{
+		min-height: 128.4vh !important;
+	}
+	.spec-potrait{
+		min-height: 123.1vh !important;
+	}
+	.exchange-potrait{
+		min-height: 106.5vh !important;
+	}
+}
+/* ipad pro landscape */
+@media screen 
+and (height : 1024px) 
+and (width : 1366px) 
+and (orientation : landscape) { 
+		.info ,h3, h5, h4{
+		font-size: 100%;
+	}
+	.info p{
+		font-size: 80%;
+	}
+	#livecoin{
+		margin-left:0vw !important;
+	}
+	#soutx{
+		margin-left:2vw;
+	}
+}
+
+/* nexus 4 potrait */
+@media screen 
+and (width: 384px) 
+and (height: 592px) 
+and (-webkit-device-pixel-ratio: 2){
+	.pt-perspective{
+		min-height: 103.4vh;
+	}
+	.menu-potrait{
+		min-height: 101vh !important;
+	}
+	.feat-potrait{
+		min-height: 141.4vh !important;
+	}
+	.feat-potrait2{
+		min-height: 127.7vh !important;
+	}
+	.tos-potrait{
+		min-height: 134.3vh !important;
+	}
+	.spec-potrait{
+		min-height: 127.7vh !important;
+	}
+	.exchange-potrait{
+		min-height: 110.5vh !important;
+	}
+}
+/* nexus 4 landscape */
+@media screen 
+and (height: 384px) 
+and (width: 592px) 
+and (-webkit-device-pixel-ratio: 2){
+	.info ,h3, h5, h4{
+		font-size: 100%;
+	}
+	.info p{
+		font-size: 80%;
+	}
+	.pt-perspective{
+		min-height: 104vh;
+	}
+	.menu-potrait{
+		min-height: 100vh !important;
+	}
+	.feat-potrait{
+		min-height: 190.7vh !important;
+	}
+	.feat-potrait2{
+		min-height: 127.7vh !important;
+	}
+	.tos-potrait{
+		min-height: 141.5vh !important;
+	}
+	.spec-potrait{
+		min-height: 127.7vh !important;
+	}
+	.exchange-potrait{
+		min-height: 110.5vh !important;
+	}
+	.panel-body{
+		font-size: 2vh;
+	}
+	.pagination>li>a, .pagination>li>span {
+		font-size:2vh;
+		padding: 6px 12px;
+	}
+	.crsl{
+		margin-left: 10%;
+	}
+	.carousel-inner {
+    height: 40vh;
+    width: 65vw;
+	}
+	#sosmed>p>span>a>img{
+		height: 2em;
+	}
+	.sosmed-icon{
+		margin-left: 37vw;
+		margin-top: 2vh;
+	}
+}
+/* nexus 5x, 6p potrait */
+@media screen 
+and (width: 412px) 
+and (height: 732px) 
+and (-webkit-device-pixel-ratio: 2){
+	.pt-perspective{
+		min-height: 101.5vh;
+	}
+	.menu-potrait{
+		min-height: 99vh !important;
+	}
+	.feat-potrait{
+		min-height: 134vh !important;
+	}
+	.feat-potrait2{
+		min-height: 134vh !important;
+	}
+	.tos-potrait{
+		min-height: 139vh !important;
+	}
+	.spec-potrait{
+		min-height: 150.7vh !important;
+	}
+	.exchange-potrait{
+		min-height: 112.8vh !important;
+	}
+}
+/* nexus 5x, 6p landscape */
+@media screen 
+and (height: 412px) 
+and (width: 732px) {
+	
+}
+/* samsung galaxy s5 potrait */
+@media screen 
+and (width: 360px) 
+and (height: 640px) 
+and (-webkit-device-pixel-ratio: 3){
+	.pt-perspective{
+		min-height: 100.5vh;
+	}
+	.menu-potrait{
+		min-height: 99vh !important;
+	}
+	.feat-potrait{
+		min-height: 134vh !important;
+	}
+	.feat-potrait2{
+		min-height: 124vh !important;
+	}
+	.tos-potrait{
+		min-height: 131.5vh !important;
+	}
+	.spec-potrait{
+		min-height: 125vh !important;
+	}
+	.exchange-potrait{
+		min-height: 107.5vh !important;
+	}
+}
+/* samsung galaxy s5 landscape */
+@media screen 
+and (height: 360px) 
+and (width: 640px) 
+and (-webkit-device-pixel-ratio: 3){
+	
+	.pt-perspective{
+		min-height: 115vh;
+	}
+	.menu-potrait{
+		min-height: 110.5vh !important;
+	}
+	.feat-potrait{
+		min-height: 148vh !important;
+	}
+	.feat-potrait2{
+		min-height: 146.5vh !important;
+	}
+	.tos-potrait{
+		min-height: 156.5vh !important;
+	}
+	.spec-potrait{
+		min-height: 165vh !important;
+	}
+	.exchange-potrait{
+		min-height: 130vh !important;
+	}
+	.tos-page-1{
+		min-height:35vh;
+	}
+	.features h4{
+		font-size:100%;
+	}
+	.panel-body{
+		font-size:100%;
+	}
+	.pagination>li>a{
+		padding: 1px 7px !important;
+	}
+	.col-spec{
+		z-index:2;
+		min-width: 50% !important;
+		float:left;
+	}
+	
+	.info ,h3, h5{
+		font-size: 100%;
+	}
+	.info p{
+		font-size: 80%;
+	}
+	.menu{
+		height:20vh;
+	}
+	.main-menu{
+		
+	}
+	.crsl{
+		margin-left: 15%;
+	}
+	.carousel-inner {
+    height: 40vh;
+    width: 60vw;
+	}
+	.sosmed-icon{
+	margin-top:1.5vh;
+	margin-left: 37.5vw;
+	margin-bottom:1.5vh;
+	}
+	#sosmed>p>span>a>img{
+		height: 2em;
+	}
+	#default-info h5{
+		font-size: 100%;
+	}
+	#copyright{
+		margin-bottom:1px;
+		font-size:100%;
+	}
+}
